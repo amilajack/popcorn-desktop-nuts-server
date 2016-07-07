@@ -6,9 +6,9 @@ var app = express();
 var nuts = Nuts({
     // GitHub configuration
     repository: 'amilajack/popcorn-time-desktop',
-    username: 'spacecow321',
+    username: 'amilajack',
     token: process.env.TOKEN
 });
 
 app.use('/', nuts.router);
-app.listen(8000);
+app.listen(80);
